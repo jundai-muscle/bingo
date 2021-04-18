@@ -1,0 +1,42 @@
+table th,table td{
+    border:solid 1px black;
+    width:50px;
+    height:50px;
+}
+
+#list{
+    position: absolute;
+    border-collapse: collapse;
+    font-size: 30px;
+    text-align: center;
+    margin:0 auto;
+    top:320px;
+    left:22%;
+  }
+
+.top {
+    position: absolute;
+    left:42%;
+    top:295px;
+    z-index: 5;
+}
+
+#getnum{
+    display:flex;
+    border:solid 1px black;
+    border-radius:50%;
+    width:250px;
+    height:250px;
+    margin:0 auto;
+    position: relative;
+}
+#disnum{
+    position:absolute;
+    text-align:center;
+    left: 0;
+    right: 0;
+    top: 0%;
+    bottom :0;
+ 
+    font-size: 200px;
+}
